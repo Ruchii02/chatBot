@@ -53,7 +53,7 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    # Install server dependencies
-   cd server
+   cd backend
    npm install
 
    # Install client dependencies
@@ -84,7 +84,7 @@ GEMINI_API_KEY=your_gemini_api_key
 1. **Run the server**:
 
    ```bash
-   cd server
+   cd backend
    npm run dev
    ```
 
