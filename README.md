@@ -13,7 +13,7 @@ Welcome to the ChatBot Application! This is a MERN stack-based chatbot applicati
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
+  
 
 ## Features
 
