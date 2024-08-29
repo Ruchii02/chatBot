@@ -29,8 +29,7 @@ Welcome to the ChatBot Application! This is a MERN stack-based chatbot applicati
 - **Backend**: Node.js, Express, Gemini API (for AI integration)
 - **Database**: MongoDB (NoSQL database)
 - **Storage**: ImageKit (for image handling)
-- **Others**: Socket.io (for real-time communication)
-
+  
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
