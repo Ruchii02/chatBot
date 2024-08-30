@@ -171,22 +171,19 @@ app.use((err, req, res, next) => {
 });
 
 // PRODUCTION
-app.use(express.static(path.join(__dirname, "../client/dist")));
+// app.use(express.static(path.join(__dirname, "../client/dist")));
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/dist", "index.html"));
-});
-
-// Define the path to the `client/dist` directory
-// const clientDistPath = path.join(__dirname, '..', 'client', 'dist');
-
-// // Serve static files from the `client/dist` directory
-// app.use(express.static(clientDistPath));
-
-// // Serve the `index.html` file for all routes
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(clientDistPath, 'index.html'));
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "../client/dist", "index.html"));
 // });
+
+// Serve static files from the 'dist' directory
+app.use(express.static(path.join(__dirname, 'client', 'dist')));
+
+// Serve the main index.html file for all routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
+});
 
 //added
 app.get("/" , (req , res)=>{
