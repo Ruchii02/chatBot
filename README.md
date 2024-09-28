@@ -1,4 +1,4 @@
-
+https://buddy-bee.onrender.com
 # ChatBot Application
 
 Welcome to the ChatBot Application! This is a MERN stack-based chatbot application that allows users to ask questions and receive intelligent responses from the AI, integrated with various services like Gemini API, Clerk, and ImageKit for enhanced functionality.
